@@ -20,15 +20,19 @@ const Navbar = () => {
               alt="" />
           </a>
           <div class="flex flex-auto space-x-12 mr-30">
-              *//<a href='/'>Home</a>//* gidecek buradan 
-              <li class="hidden md:flex items-center justify-center h-20 
-              max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
-              focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">Home </li>
+        
+            <div className='hidden md:flex items-center justify-center h-20 
+                  max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
+                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600"'>
+                  <a href='/'>Home</a>
+              </div>
 
                 
-                <li class="hidden md:flex items-center justify-center h-20
-                max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
-                focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">About Us </li> 
+                <div className='hidden md:flex items-center justify-center h-20 
+                  max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
+                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600"'>
+                  <a href='/About'>About</a>
+              </div>
              
 
              <li class="hidden md:flex items-center justify-center h-20 
@@ -41,8 +45,8 @@ const Navbar = () => {
                   <a href='/Cards'>Services</a>
               </div>
               
-              <button type="button" className="px-3 py-5 font-semibold rounded-[6px_6px] dark:bg-gray-100 dark:text-gray-800">Login</button>
-              <button type="button" className="px-3 py-5 font-semibold rounded-[8px_8px] dark:bg-gray-100 dark:text-gray-800">Sıgn Up</button>
+              <button type="button" className="hidden md:flex px-3 py-5 font-semibold rounded-[6px_6px] dark:bg-gray-100 dark:text-gray-800">Login</button>
+              <button type="button" className="hidden md:flex px-3 py-5 font-semibold rounded-[8px_8px] dark:bg-gray-100 dark:text-gray-800">Sıgn Up</button>
 
           </div>
 
