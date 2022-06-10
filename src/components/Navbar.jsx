@@ -10,10 +10,11 @@ const Navbar = () => {
     
 
   return (
-      <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-6 text-white'>
-      <a href="#">
-            <span className="sr-only">TradeForEveryOne</span>
-            <img height={70} width={70}
+      <div className='flex justify-between items-center h-36 max-w-[1240px] mx-auto px-6 text-white'>
+        
+           <a href="#">
+              <span className="sr-only">TradeForEveryOne</span>
+              <img height={70} width={70}
               className="h-20 w-auto sm:h-15"
               src="./img/logos.svg"
               alt="" />
@@ -33,8 +34,15 @@ const Navbar = () => {
              <li class="hidden md:flex items-center justify-center h-20 
               max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
               focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">Contact Us </li>
+
+              <div className='hidden md:flex items-center justify-center h-20 
+                  max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
+                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600"'>
+                  <a href='/Cards'>Services</a>
+              </div>
               
-              <button type="button" className="px-3 py-3 font-semibold rounded- dark:bg-gray-100 dark:text-gray-800">Login</button>
+              <button type="button" className="px-3 py-5 font-semibold rounded-[6px_6px] dark:bg-gray-100 dark:text-gray-800">Login</button>
+              <button type="button" className="px-3 py-5 font-semibold rounded-[8px_8px] dark:bg-gray-100 dark:text-gray-800">Sıgn Up</button>
 
           </div>
 
