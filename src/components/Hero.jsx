@@ -5,14 +5,14 @@ import Meirl from '../assets/meirl.png'
 const Hero = () => {
   return (
     <div className='text-white'>
-      <div className='max-w-[700px] mt-[-96px] w-full h-screen mx-40 text-left flex flex-col justify-center'>
+      <div className='max-w-[1240px] mt-[-96px] w-full h-screen mx-auto text-left flex flex-col justify-center'>
         
         
-        <h1 className='md:text-5xl sm:text-2xl text-4xl font-bold md:py-6'>
+        <h1 className='max-w-[700px] mt-[-50px] py-6 text-bold text-[45px] ml-3'>
             UnMatched Trading Tools
         </h1>
     
-        <div className=' grif justify-left items-center text-justify'>
+        <div className='max-w-[700px] ml-3'>
           <p className='md:text-2xl sm:text-1xl text-2xl font-bilo py-4'>
           Step up your trading with TradeForEveryone indicator, it helps you giving better trading decisions with it's unmatched trading strategy.
           </p></div> 
@@ -29,7 +29,7 @@ const Hero = () => {
                     
         
 
-        <button className='bg-[#606060] w-[200px] rounded-md font-medium my-6 item-left py-3 text-white'>Access Now</button>
+        <button className='max-w-[700px] bg-[#606060] w-[200px] rounded-md font-medium my-6 item-left py-3 text-white ml-3'>Access Now</button>
       </div>
       <div className='w-full bg-[#F2F6FF] py-16 px-4'>
               
@@ -49,8 +49,8 @@ const Hero = () => {
                       <div className='flex flex-col-2  items-end '>
                       <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
                       <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button></div>
-                      <div className='flex flex-col items py-10 ml-10'>
-                      <button className='bg-[#3d1673] text-[#606060] w-[470px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
+                      <div className='flex flex-col items py-10 ml-4'>
+                      <button className='bg-[#3d1673] text-[#606060] w-[470px] rounded-3xl font-bilo text-xl py-20'>Get Started</button>
                       </div>
               </div>
           </div>

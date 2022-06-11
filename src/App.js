@@ -6,7 +6,8 @@ import Hero from './components/Hero';
 import Newsletter from './components/Newsletter';
 import Logos from '../src/assets/logos.svg'
 import About from './components/About';
-import {Routes, Route} from 'react-router-dom';
+import Liste from './components/Liste';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Hero/>} />
-        <Route path='/Analytics' element={<Analytics/>} />
+        <Route path='/Analytics' element={<Analytics/> } />
         <Route path='/Newsletter' element={<Newsletter/>} />
         <Route path='/Cards' element={<Cards/>} />
         <Route path='/About' element={<About/>} />
+        <Route path='/Liste' element={<Liste/>} />
       </Routes>
       {/*<Hero />
       <Analytics />
