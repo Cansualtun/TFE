@@ -8,6 +8,7 @@ import Logos from '../src/assets/logos.svg'
 import About from './components/About';
 import Liste from './components/Liste';
 import { Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Hero/>} />
         <Route path='/Analytics' element={<Analytics/> } />
+        <Route path='/Footer' element={<Footer/> } />
         <Route path='/Newsletter' element={<Newsletter/>} />
         <Route path='/Cards' element={<Cards/>} />
         <Route path='/About' element={<About/>} />
