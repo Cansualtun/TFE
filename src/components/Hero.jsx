@@ -6,49 +6,41 @@ const Hero = () => {
   return (
     <div className='text-white'>
       <div className='max-w-[1240px] mt-[-96px] w-full h-screen mx-auto text-left flex flex-col justify-center'>
-        
-        
-        <h1 className='max-w-[700px] mt-[-50px] py-6 text-bold text-[45px] ml-3'>
-            UnMatched Trading Tools
-        </h1>
-    
-        <div className='max-w-[700px] ml-3'>
-          <p className='md:text-2xl sm:text-1xl text-2xl font-bilo py-4'>
-          Step up your trading with TradeForEveryone indicator, it helps you giving better trading decisions with it's unmatched trading strategy.
-          </p></div> 
-
-                  <a className='grid justify-items-center'>
-                  
-                    <Typed
+                <h1 className='max-w-[700px] mt-[-50px] py-6 text-bold text-[45px] ml-3'>
+                    UnMatched Trading Tools
+                </h1>    
+     <div className='max-w-[700px] ml-3'>
+                <p className='md:text-2xl sm:text-1xl text-2xl font-bilo py-4'>
+                Step up your trading with TradeForEveryone indicator, it helps you giving better trading decisions with it's unmatched trading strategy.
+                </p>
+     </div>
+     <a className='grid justify-items-center'>
+                   <Typed
                     className='md:text-xl sm:text-xl text-xl font-Bilo text-purple-700'
                       strings={['BTC', 'ETH', 'EOS', 'SOL', 'SHIB', 'ALL OF CRYPTO', 'ONE PLATFORM']}
                       typeSpeed={120}
                       backSpeed={140}
                       loop
-                    /></a>   
-                    
-        
-
+       /></a>   
         <button className='max-w-[700px] bg-[#606060] w-[200px] rounded-md font-medium my-6 item-left py-3 text-white ml-3'>Access Now</button>
-      </div>
-      <div className='w-full bg-[#F2F6FF] py-16 px-4'>
-              
-              <div className='flex flex-col justify-center pb-10'>
+         </div>
+         <div className='w-full bg-[#F2F6FF] py-16 px-4'>
+             <div className='flex flex-col justify-center pb-10'>
                   <div className='flex flex-col py-10 items-end mr-20 '>
                           <button className='bg-[#3d1673] text-[#606060] w-[400px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
-                        </div>
+                  </div>
               <p className='text-[#16194F] font-Bilo text-4xl justify-start ml-20  '>Built Exclusively for cyrpto traders</p>
               <h1 className= 'md:text-2xl sm:test-2xl text-l font-bil py-4 text-left hover:text-3xl ml-20 text-[#3d1673] max-w-md '> TradeForEveryone works on all financial 
-                markets but our main focus is cyrpto trades 
-                and we're developing our products everyday to 
-                help our members succeed.
+                      markets but our main focus is cyrpto trades 
+                      and we're developing our products everyday to 
+                      help our members succeed.
               </h1>
-                    <div className='flex flex-col py-10 items-end mr-20 mb-22 '>
+               <div className='flex flex-col py-10 items-end mr-20 mb-22 '>
                         <button className='bg-[#3d1673] text-[#606060] w-[400px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
-                    </div>
-                      <div className='flex flex-col-2  items-end '>
-                      <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
-                      <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button></div>
+              </div>
+               <div className='flex flex-col-2  items-end '>
+              <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
+              <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button></div>
                       <div className='flex flex-col items py-10 ml-4'>
                       <button className='bg-[#3d1673] text-[#606060] w-[470px] rounded-3xl font-bilo text-xl py-20'>Get Started</button>
                       </div>

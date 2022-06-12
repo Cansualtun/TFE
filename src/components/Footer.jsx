@@ -1,49 +1,47 @@
-import React from 'react' ; 
+import React from 'react';
+import {
+  FaGithubSquare,
+  FaTwitterSquare,
+} from 'react-icons/fa';
 
 const Footer = () => {
-return (
-<div className='p-4 margin-top:-20px'>
-    <div className="absolute left-0">
-        <div className="mb-10 ml-20">
-            <a href="/src/index.html" className="mt-40">
-             <span className="self-center text-2xl font-Bilo whitespace-nowrap text-white font-Bilo">TradeForEveryone</span>
-            </a>
-        </div>
+  return (
+    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+            <div>
+                <h1 className='w-full text-3xl font-bold text-[#616161]'>TradeForEveryOne / Logos</h1>
+                <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
+                <div className='flex md:w-[60%] my-7'>
+                    <a href='https://twitter.com/trade4every1'><FaTwitterSquare size={40} /></a>
+                    <a href='https://github.com/Cansualtun/TFE'><FaGithubSquare size={40} /></a>
+                </div>
+            </div>
+            <div className='lg:col-span-2 flex justify-between mt-6'>
+            <div>
+                <h6 className='font-medium text-white'>RESOURCES</h6>
+                <ul>
+                    <li className='py-2 text-sm text-[#616161]'>ABOUT</li>
+                    <li className='py-2 text-sm text-[#616161]'>BLOG</li>
+                </ul>
+            </div>
+            <div>
+                <h6 className='font-medium text-white'>SERVICES</h6>
+                <ul>
+                    <li className='py-2 text-sm text-[#616161]'>Pricing</li>
+                    <li className='py-2 text-sm text-[#616161]'>MENTORSHIP</li>
+                </ul>
+            </div>
+            <div>
+                <h6 className='font-medium text-white'>Legal</h6>
+                <ul>
+                    <li className='py-2 text-sm text-[#616161]'>Privacy Policy</li>
+                    <li className='py-2 text-sm text-[#616161]'>Terms & Conditions </li>
+                </ul>
+            </div>
+      </div>
+      <div className='flex max-w-[1240px] mx-auto text-m font-bold text-[#616161] items-center text-justify '><h2>© 2022 TradeForEveryone™. All Rights Reserved.</h2>
+      </div>
     </div>
-    <div className="absolute left-20" style="margin-left:450px">
-        <h2 className="mb-6 text-sm font-Bilo uppercase text-white">Resources</h2>
-        <ul className="text-gray-600 dark:text-gray-400">
-        <li className='mb-4'>
-            <a href="https://flowbite.com" className="hover:underline font-Bilo text-gray-500" style="font-size: 20px;">About</a>
-        </li>
-    <li>
-        <a href="https://tailwindcss.com/" className="hover:underline font-Bilo text-gray-500" style="font-size:20px">Blog</a>
-    </li>
-    </ul>
-</div>
-    <div className="absolute right-100" style="margin-left:700px">
-        <h2 className="mb-6 text-sm uppercase text-white font-Bilo">Servisler</h2>
-        <ul className="text-gray-600 dark:text-gray-400">
-    <li className="mb-4">
-        <a href="https://github.com/themesberg/flowbite" className="hover:underline text-gray-500 font-Bilo" style="font-size:20px">Fiyatlandırma</a>
-    </li>
-    <li>
-        <a href="https://discord.gg/4eeurUVvTy" className="hover:underline text-gray-500 font-Bilo" style="font-size:20px">Mentorluk</a>
-    </li>
-</ul>
-</div>
-        <div style="margin-left:1000px">
-            <h2 className="mb-6 text-sm font-Bilo  uppercase text-white">Legal</h2>
-        <ul className="text-gray-600 dark:text-gray-400">
-        <li className="mb-4">
-            <a href="#" className="hover:underline text-gray-500 font-Bilo" style="font-size:20px">Privacy Policy</a>
-        </li>
-        <li>
-            <a href="#" className="hover:underline text-white font-Bilo" style="font-size:20px">Terms &amp; Conditions</a>
-        </li>
-        </ul>
-    </div>
-</div>
-) ;
+  );
 } ;
+  
 export default Footer;

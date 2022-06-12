@@ -34,22 +34,21 @@ const Navbar = () => {
                   <a href='/About'>About</a>
               </div>
              
-
-             <li class="hidden md:flex items-center justify-center h-20 
+              
+             <div class="hidden md:flex items-center justify-center h-20 
               max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
-              focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">Contact Us </li>
-
+              focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">
+              <a href ='/ContactUs'>ContactUs</a>
+              </div>
+   
               <div className='hidden md:flex items-center justify-center h-20 
                   max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
                   focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600"'>
                   <a href='/Services'>Services</a>
+              </div> 
+                <a href="/LogIn"><button type="button" className="hidden md:flex px-3 py-5 font-semibold rounded-[6px_6px] dark:bg-gray-100 dark:text-gray-800">Login</button></a>
+                <a href="/SignUp"><button type="button" className="hidden md:flex px-3 py-5 font-semibold rounded-[8px_8px] dark:bg-gray-100 dark:text-gray-800">Sıgn Up</button></a>
               </div>
-              
-              <button type="button" className="hidden md:flex px-3 py-5 font-semibold rounded-[6px_6px] dark:bg-gray-100 dark:text-gray-800">Login</button>
-              <button type="button" className="hidden md:flex px-3 py-5 font-semibold rounded-[8px_8px] dark:bg-gray-100 dark:text-gray-800">Sıgn Up</button>
-
-          </div>
-
         <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
