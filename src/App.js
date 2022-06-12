@@ -23,6 +23,7 @@ function App() {
         <Route path='/About' element={<About/>} />
         <Route path='/Liste' element={<Liste/>} />
       </Routes>
+      <Footer/>
       {/*<Hero />
       <Analytics />
       <Newsletter />
