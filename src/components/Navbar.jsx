@@ -14,41 +14,48 @@ const Navbar = () => {
         
            <a href="#">
               <span className="sr-only">TradeForEveryOne</span>
-              <img height={70} width={70}
+              {/*<img height={70} width={70}
               className="h-20 w-auto sm:h-15"
               src="./img/logos.svg"
-              alt="" />
+              alt="" />*/}
           </a>
-          <div class="flex flex-auto space-x-12 mr-30">
-        
-            <div className='hidden md:flex items-center justify-center h-20 
+          <div class="flex space-x-10">
+            <div className='hidden md:flex items-center h-20 
                   max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
                   focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600"'>
                   <a href='/'>Home</a>
               </div>
-
-                
-                <div className='hidden md:flex items-center justify-center h-20 
+               <div className='hidden md:flex items-center h-20 mr-40
                   max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
-                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600"'>
+                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600'>
                   <a href='/About'>About</a>
               </div>
-             
-              
-             <div class="hidden md:flex items-center justify-center h-20 
-              max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
-              focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">
+               <div class
+                  ="hidden md:flex items-center h-20 
+                  max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
+                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">
               <a href ='/ContactUs'>ContactUs</a>
               </div>
-   
-              <div className='hidden md:flex items-center justify-center h-20 
+              <div className
+              ='hidden md:flex items-center h-20 
                   max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
-                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600"'>
+                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600'>
                   <a href='/Services'>Services</a>
-              </div> 
-                <a href="/LogIn"><button type="button" className="hidden md:flex px-3 py-5 font-semibold rounded-[6px_6px] dark:bg-gray-100 dark:text-gray-800">Login</button></a>
-                <a href="/SignUp"><button type="button" className="hidden md:flex px-3 py-5 font-semibold rounded-[8px_8px] dark:bg-gray-100 dark:text-gray-800">Sıgn Up</button></a>
+                </div>
               </div>
+              <div className="flex space-x-4">
+              <div>
+                <a href="/LogIn"><button type="button" className="hidden md:flex items-center h-20 
+                  max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-black bg-white border-4 border-black rounded-xl   
+                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">Login</button></a>
+             </div>
+              <div>
+                <a href="/SignUp"><button type="button"className="hidden md:flex items-center h-20 
+                  max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-black bg-white border-4 border-black rounded-xl   
+                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">Sıgn Up</button></a>
+              </div>
+              </div>
+
         <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
@@ -56,9 +63,9 @@ const Navbar = () => {
           <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
           <a href="#">
             <span className="sr-only">TradeForEveryOne</span>
-            <img height={80} width={80}
+            {/*<img height={80} width={80}
               src="./img/logos.svg"
-              alt="" />
+  alt="" />*/}
           </a>
             <li className='p-5 border-b border-gray-600'>Home</li>
             <li className='p-5 border-b border-gray-600'>About Us</li>

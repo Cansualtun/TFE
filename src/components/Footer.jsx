@@ -6,7 +6,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className='max-w-[1240px] mx-auto py-5 px-4 grid lg:grid-cols-3 gap-5 text-gray-300'>
             <div>
                 <h1 className='w-full text-3xl font-bold text-[#616161]'>TradeForEveryOne / Logos</h1>
                 <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
@@ -15,19 +15,19 @@ const Footer = () => {
                     <a href='https://github.com/Cansualtun/TFE'><FaGithubSquare size={40} /></a>
                 </div>
             </div>
-            <div className='lg:col-span-2 flex justify-between mt-6'>
+            <div className='lg:col-span-1 flex justify-between mt-20'>
             <div>
-                <h6 className='font-medium text-white'>RESOURCES</h6>
+                <h6 className='font-medium text-white'>Resources</h6>
                 <ul>
-                    <li className='py-2 text-sm text-[#616161]'>ABOUT</li>
-                    <li className='py-2 text-sm text-[#616161]'>BLOG</li>
+                    <li className='py-2 text-sm text-[#616161]'>About</li>
+                    <li className='py-2 text-sm text-[#616161]'>Blog</li>
                 </ul>
             </div>
             <div>
-                <h6 className='font-medium text-white'>SERVICES</h6>
+                <h6 className='font-medium text-white'>Services</h6>
                 <ul>
                     <li className='py-2 text-sm text-[#616161]'>Pricing</li>
-                    <li className='py-2 text-sm text-[#616161]'>MENTORSHIP</li>
+                    <li className='py-2 text-sm text-[#616161]'>Mentorship</li>
                 </ul>
             </div>
             <div>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </ul>
             </div>
       </div>
-      <div className='flex max-w-[1240px] mx-auto text-m font-bold text-[#616161] items-center text-justify '><h2>© 2022 TradeForEveryone™. All Rights Reserved.</h2>
+      <div className='flex max-w-[1240px] text-m font-bold text-[#616161] mt-20'><h2>© 2022 TradeForEveryone™. All Rights Reserved.</h2>
       </div>
     </div>
   );
