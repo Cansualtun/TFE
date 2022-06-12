@@ -39,7 +39,7 @@ return (
             <a href="#" className="hover:underline text-gray-500 font-Bilo" style="font-size:20px">Privacy Policy</a>
         </li>
         <li>
-            <a href="#" className="hover:underline text-gray-500 font-Bilo" style="font-size:20px">Terms &amp; Conditions</a>
+            <a href="#" className="hover:underline text-white font-Bilo" style="font-size:20px">Terms &amp; Conditions</a>
         </li>
         </ul>
     </div>

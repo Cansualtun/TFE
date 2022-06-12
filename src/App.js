@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar';
 import Analytics from './components/Analytics';
-import Cards from './components/Cards';
+import Services from './components/Services' ; 
 import Hero from './components/Hero';
 import Newsletter from './components/Newsletter';
 import Logos from '../src/assets/logos.svg'
@@ -17,9 +17,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Hero/>} />
         <Route path='/Analytics' element={<Analytics/> } />
-        <Route path='/Footer' element={<Footer/> } />
         <Route path='/Newsletter' element={<Newsletter/>} />
-        <Route path='/Cards' element={<Cards/>} />
+        <Route path='/Services' element={<Services/>} />
         <Route path='/About' element={<About/>} />
         <Route path='/Liste' element={<Liste/>} />
       </Routes>
