@@ -24,7 +24,7 @@ const LogIn = () => {
     </div>
 
     <div className="max-w-lg mx-auto text-center mt-12 mb-6">
-        <a className="text-white">Don't have an account?</a><a href="/src/register.html" className="font-bold hover:underline text-purple-400">Sign up</a>
+        <a className="text-white">Don't have an account?</a><a href="./SignUp" className="font-bold hover:underline text-purple-400">Sign up</a>
     </div>
 </div> 
   ) ; 
