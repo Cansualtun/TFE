@@ -12,10 +12,12 @@ import Footer from './components/Footer';
 import ContactUs from './components/ContactUs';
 import SignUp from './components/SignUp' ;
 import LogIn from './components/LogIn' ;  
+import { AuthContextProvider } from './Context/AuthContext';
 
 function App() {
   return (
     <>
+      <AuthContextProvider>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Hero/>} />
@@ -29,6 +31,7 @@ function App() {
         <Route path='/LogIn' element={<LogIn/>} />
       </Routes>
       <Footer/>
+      </AuthContextProvider>
       {/*<Hero />
       <Analytics />
       <Newsletter />
