@@ -40,7 +40,16 @@ const Hero = () => {
               </div>
                <div className='flex flex-col-2  items-end '>
                   <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
-                  <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button></div>
+                  <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
+                        <div className='text-[#16194F] font-Bilo text-xl justify-start ml-40'>
+                            <p className='text-[#101C26] text-l'>Step-1 Chose Your Plan.</p>
+                              <p className='text-[#101C26] text-l'>Choose the TradeForEveryOne plan that fits your needs and make a payment with crypto.</p>
+                              <p className='text-[#101C26] text-l'>Step-2 Get Access.
+                              <p className='text-[#101C26] text-l'></p>Immidiate access link and user guide is emailed to your mail address, simply open and get access.</p>
+                              <p className='text-[#101C26] text-l'>Step-3 Start Trading.</p>
+                              <p className='text-[#101C26] text-l'>Start your profitable trading journey with TradeForEveryOne products and enjoy your profits.</p>
+                        </div> 
+                </div>
                 <div className='flex flex-col items py-10 ml-4'>
                   <button className='bg-[#3d1673] text-[#606060] w-[470px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
                  </div>
