@@ -6,10 +6,10 @@ import {
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-5 px-4 grid lg:grid-cols-3 gap-5 text-gray-300'>
+    <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-5 text-gray-300'>
             <div>
-                <h1 className='w-full text-3xl font-bold text-[#616161]'>TradeForEveryOne / Logos</h1>
-                <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
+                <h1 className='w-full text-3xl font-bold text-[#616161] mt-12 '>TradeForEveryOne / Logos</h1>
+                <p className='py-4'>Our goal as TradeForEveryone is making trading easier and profitable by using unmatched algorithms and strategies developed by professional traders.</p>
                 <div className='flex md:w-[60%] my-7'>
                     <a href='https://twitter.com/trade4every1'><FaTwitterSquare size={40} /></a>
                     <a href='https://github.com/Cansualtun/TFE'><FaGithubSquare size={40} /></a>
