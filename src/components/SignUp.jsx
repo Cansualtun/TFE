@@ -7,7 +7,7 @@ const SignUp = () => {
     const [email, setEmail] = useState('');
     const [password, setPasword] = useState('');
     const [error, setError] = useState('');
-    const navigate = useNavigate();
+    const [navigate] = useNavigate();
     const {SignUp} = UserAuth();
 
     const {handleSubmit} =async (e) => {
@@ -50,7 +50,7 @@ const SignUp = () => {
                     
                 </div>
                 <div className="mb-6 pt-3 rounded bg-gray-200">
-                    <label className="block text-gray-700 text-sm font-bold mb-2 ml-3" for="email">TradingWiew ID</label>
+                    <label className="block text-gray-700 text-sm font-bold mb-2 ml-3" for="Tradingview ID">TradingWiew ID</label>
                     <input type="text" id="email" className="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3"></input>
                 </div>
                 <div className="mb-6 pt-3 rounded bg-gray-200">
@@ -59,7 +59,7 @@ const SignUp = () => {
                     type="password" id="password" className="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3"></input>
                     
                 </div>
-                <button id="Register" className="bg-purple-600 hover:bg-purple-700 text-white text-center font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" href="/src/index.html" >Sign In</button>
+                <button id="Register" className="bg-purple-600 hover:bg-purple-700 text-white text-center font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" href="../compenents/hero" >Sign In</button>
             </form>
        </div>
     </div>
