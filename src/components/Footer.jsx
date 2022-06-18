@@ -19,22 +19,22 @@ const Footer = () => {
             <div>
                 <h6 className='font-medium text-white'>Resources</h6>
                 <ul>
-                    <li className='py-2 text-sm text-[#616161]'>About</li>
-                    <li className='py-2 text-sm text-[#616161]'>Blog</li>
+                    <li><a  className='py-2 text-sm text-[#616161]' href="/About">About</a></li>
+                    <li><a className='py-2 text-sm text-[#616161]' href='/Blog'>Blog</a></li>
                 </ul>
             </div>
             <div>
                 <h6 className='font-medium text-white'>Services</h6>
                 <ul>
-                    <li className='py-2 text-sm text-[#616161]'>Pricing</li>
-                    <li className='py-2 text-sm text-[#616161]'>Mentorship</li>
+                    <li><a className='py-2 text-sm text-[#616161]'  href=''>Pricing</a></li>
+                    <li><a className='py-2 text-sm text-[#616161]'  href=''>Mentorship</a></li>
                 </ul>
             </div>
             <div>
                 <h6 className='font-medium text-white'>Legal</h6>
                 <ul>
-                    <li className='py-2 text-sm text-[#616161]'>Privacy Policy</li>
-                    <li className='py-2 text-sm text-[#616161]'>Terms & Conditions </li>
+                    <li><a className='py-2 text-sm text-[#616161]'  href='/PrivacyPolicy'>Privacy Policy</a></li>
+                    <li><a className='py-2 text-sm text-[#616161]'  href=''>Terms & Conditions </a></li>
                 </ul>
             </div>
       </div>

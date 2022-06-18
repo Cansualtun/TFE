@@ -1,5 +1,7 @@
+import { logRoles } from '@testing-library/react';
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import logo from './logos.png' ; 
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -14,10 +16,10 @@ const Navbar = () => {
         
            <a href="#">
               <span className="sr-only">TradeForEveryOne</span>
-              {/*<img height={70} width={70}
+              <img height={70} width={70}
               className="h-20 w-auto sm:h-15"
-              src="./img/logos.svg"
-              alt="" />*/}
+              src={logos}
+              alt="" />
           </a>
           <div class="flex space-x-10">
             <div className='hidden md:flex items-center h-20 

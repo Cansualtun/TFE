@@ -12,6 +12,8 @@ import Footer from './components/Footer';
 import ContactUs from './components/ContactUs';
 import SignUp from './components/SignUp' ;
 import LogIn from './components/LogIn' ;  
+import Blog from './components/Blog' ; 
+import PrivacyPolicy  from './components/PrivacyPolicy';
 import { AuthContextProvider } from './Context/AuthContext';
 
 function App() {
@@ -29,6 +31,9 @@ function App() {
         <Route path='/ContactUs' element={<ContactUs/>} />
         <Route path='/SignUp' element={<SignUp/>} />
         <Route path='/LogIn' element={<LogIn/>} />
+        <Route path='/Blog' element={<Blog/>} />
+        <Route path='/PrivacyPolicy' element={<PrivacyPolicy/>} />
+
       </Routes>
       <Footer/>
       </AuthContextProvider>
