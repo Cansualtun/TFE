@@ -2,7 +2,8 @@ import { logRoles } from '@testing-library/react';
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logoy from '../assets/logoyeni.png';
- 
+
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -61,12 +62,12 @@ const Navbar = () => {
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
         <div>
-          <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+          <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#101C26] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
           <a href="#">
             <span className="sr-only">TradeForEveryOne</span>
-            {/*<img height={80} width={80}
-              src="./img/logos.svg"
-  alt="" />*/}
+              <img height={70} width={70}
+              className="h-20 w-auto sm:h-15"
+              src={logoy}/>
           </a>
             <li className='p-5 border-b border-gray-600'>Home</li>
             <li className='p-5 border-b border-gray-600'>About Us</li>
