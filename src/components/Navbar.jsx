@@ -1,6 +1,7 @@
 import { logRoles } from '@testing-library/react';
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import logoy from '../assets/logoyeni.png';
  
 
 const Navbar = () => {
@@ -18,9 +19,7 @@ const Navbar = () => {
               <span className="sr-only">TradeForEveryOne</span>
               <img height={70} width={70}
               className="h-20 w-auto sm:h-15"
-              src=''
-              alt="" />
-          </a>
+              src={logoy}/></a>
           <div class="flex space-x-10">
             <div className='hidden md:flex items-center h-20 
                   max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   

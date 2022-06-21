@@ -19,30 +19,35 @@ const About = () => {
              </div> 
          </div>
     <div className='max-w-[1240px] mt-[-96px] w-full h-screen mx-40 py-20 text-center flex'> 
-         <div className='max-w-[500px] mt-[-96px] w-full shadow-xl bg-[#3d1673] p-3 my-12 rounded-xs'>
-              <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Meirl} alt="/" />
+         <div className='max-w-[500px] mt-[-96px] w-full shadow-xl bg-[#3d1673] p-3 my-12 rounded-xs hover:scale-105 duration-300'>
+              <img className='w-20 mx-auto mt-[-3rem] bg-transparent rounded-full' src={Meirl} alt="/" />
               <h2 className='text-2xl font-bold text-center py-8'>Kurucu Ortak</h2>
               <p className='text-center text-4xl font-bilo'></p>
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>Cansu ALTUN</p>
                   <p className='py-2 border-b mx-8 mt-8'>Eğitim hayatını marmara üniversitesinde mühendislik alanında tamamladıktan sonra ilgi alanı olan finans ve yazılıma yöneldi.</p>
                   <p className='py-2 border-b mx-8 mt-8'>Edindiği tecrübeler sonucu bu siteyi kurmaya karar verdi.</p>
-                  <button className='bg-[#616161] text-[FFFFFF] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Contact Me!</button>
+                  <a href="mailto:altuncansu98@gmail.com">
+                  <button class="btn btn-outline bg-purple-400 text-white mt-20">Contact Me</button>
+                  </a>           
               </div>
             </div>
-            <div className='max-w-[500px] mt-[-96px] w-full shadow-xl bg-[#3d1673] p-3 my-12 rounded-xs ml-40'>
-              <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Mgpp} alt="/" />
+            <div className='max-w-[500px] mt-[-96px] w-full shadow-xl bg-[#3d1673] p-3 my-12 rounded-xs ml-40 hover:scale-105 duration-300'>
+              <img className='w-20 mx-auto mt-[-3rem] bg-transparent rounded-full' src={Mgpp} alt="/" />
               <h2 className='text-2xl font-bold text-center py-8'>Kurucu Ortak</h2>
               <p className='text-center text-4xl font-bilo'></p>
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>Mustafa GENÇTÜRK</p>
                   <p className='py-2 border-b mx-8 mt-8'>Eğitim hayatını marmara üniversitesinde mühendislik alanında tamamladıktan sonra ilgi alanı olan finans ve yazılıma yöneldi.</p>
                   <p className='py-2 border-b mx-8 mt-8'>Finans alanında aldığı eğitimler ve ve tecrübeleri neticesinde bu işi profesyonel olarak yapmaya karar verdi.</p>
-                  <button className='bg-[#616161] text-[FFFFFF] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Contact Me!</button>
+                  <a href="mailto:mustafailetisim1@gmail.com">
+                  <button class="btn btn-outline bg-purple-400 text-white mt-20">Contact Me</button>
+                  </a>
               </div>
           </div>
     </div>
 </div>
+
 
 
     ) ; 
