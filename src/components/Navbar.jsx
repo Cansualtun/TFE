@@ -67,12 +67,23 @@ const Navbar = () => {
             {/*<img height={80} width={80}
               src="./img/logos.svg"
   alt="" />*/}
+           {/**HamburgerMenü */}
           </a>
+          <a href="/">
             <li className='p-5 border-b border-gray-600'>Home</li>
+            </a>
+            <a href="/About">
             <li className='p-5 border-b border-gray-600'>About Us</li>
+            </a>
+            <a href="/ContactUs">
             <li className='p-5 border-b border-gray-600'>Contact Us</li>
+            </a>
+            <a href="/LogIn">
             <li className='p-5 border-b border-gray-600'>Login</li>
+            </a> 
+            <a href="/SignUp">
             <li className='p-5'>Sign In</li>
+            </a>
           </ul>
         </div>
       </div>
