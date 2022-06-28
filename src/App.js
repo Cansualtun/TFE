@@ -22,15 +22,15 @@ function App() {
       <AuthContextProvider>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Hero/>} />
+        <Route exact path='/' element={<Hero/>} />
         <Route path='/Analytics' element={<Analytics/> } />
         <Route path='/Newsletter' element={<Newsletter/>} />
         <Route path='/Services' element={<Services/>} />
         <Route path='/About' element={<About/>} />
         <Route path='/Liste' element={<Liste/>} />
         <Route path='/ContactUs' element={<ContactUs/>} />
-        <Route path='/SignUp' element={<SignUp/>} />
-        <Route path='/LogIn' element={<LogIn/>} />
+        <Route exact path='/SignUp' element={<SignUp/>} />
+        <Route exact path='/LogIn' element={<LogIn/>} />
         <Route path='/Blog' element={<Blog/>} />
         <Route path='/PrivacyPolicy' element={<PrivacyPolicy/>} />
 
