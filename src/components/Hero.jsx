@@ -21,7 +21,7 @@ const Hero = () => {
                       typeSpeed={120}
                       backSpeed={140}
                       loop
-       /></a>   
+       /></a> 
         <button className='max-w-[700px] bg-[#606060] w-[200px] rounded-md font-medium my-6 item-left py-3 text-white ml-3'>Access Now</button>
          </div>
          <div className='w-full bg-[#F2F6FF] py-16 px-4'>
@@ -41,13 +41,15 @@ const Hero = () => {
                <div className='flex flex-col-2  items-end '>
                   <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
                   <button className='bg-[#3d1673] text-[#606060] w-[200px] rounded-3xl font-bilo text-xl py-20 ml-20'>Get Started</button>
-                        <div className='text-[#16194F] font-Bilo text-xl justify-start ml-40'>
-                            <p className='text-[#101C26] text-l'>Step-1 Chose Your Plan.</p>
-                              <p className='text-[#101C26] text-l'>Choose the TradeForEveryOne plan that fits your needs and make a payment with crypto.</p>
-                              <p className='text-[#101C26] text-l'>Step-2 Get Access.
-                              <p className='text-[#101C26] text-l'></p>Immidiate access link and user guide is emailed to your mail address, simply open and get access.</p>
-                              <p className='text-[#101C26] text-l'>Step-3 Start Trading.</p>
-                              <p className='text-[#101C26] text-l'>Start your profitable trading journey with TradeForEveryOne products and enjoy your profits.</p>
+                       <div>
+                          <div className='text-[#16194F] font-Bilo text-xl justify-start ml-40'>
+                                  <p className='text-[#101C26] text-xl'>Step-1 Chose Your Plan</p>
+                                  <p className='text-[#101C26] text-l'>Choose the TradeForEveryOne plan that fits your needs and make a payment with crypto.</p>
+                                  <p className='text-[#101C26] text-l'>Step-2 Get Access
+                                  <p className='text-[#101C26] text-l'></p>Immidiate access link and user guide is emailed to your mail address, simply open and get access.</p>
+                                  <p className='text-[#101C26] text-l'>Step-3 Start Trading</p>
+                                  <p className='text-[#101C26] text-l'>Start your profitable trading journey with TradeForEveryOne products and enjoy your profits.</p>
+                            </div> 
                         </div> 
                 </div>
                 <div className='flex flex-col items py-10 ml-4'>
