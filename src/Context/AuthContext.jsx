@@ -4,19 +4,19 @@ import {
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
     signOut,
-    onAuthStateChanged
+    onAuthStateChanged,
 } from 'firebase/auth';
 
-import {doc, setDoc} from 'firebase/firestore'
+import {doc, setDoc} from 'firebase/firestore';
 
-const UserContext = createContext ()
+const UserContext = createContext ();
 
 export const AuthContextProvider = ({children}) => {
     const [user, setUser] = useState({});
 
     const signUp = (email, password) => {
         createUserWithEmailAndPassword(auth, email, password);
-        return setDoc(doc(db, users, email), {
+        return setDoc(doc(db, user, email), {
           watchList: [],
         });
       };
