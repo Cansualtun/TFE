@@ -54,7 +54,7 @@ const Navbar = () => {
               <div>
                 <a href="/SignUp"><button type="button"className="hidden md:flex items-center h-20 
                   max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-black bg-white border-4 border-black rounded-xl   
-                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">Sıgn Up</button></a>
+                  focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">Sign Up</button></a>
               </div>
               </div>
 
