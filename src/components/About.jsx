@@ -6,7 +6,7 @@ import Mgpp from '../assets/mgpp.png'
 const About = () => {
   return (
     <div className='text-white font-[Bilo] '>
-        <div className='max-w-[1240px] mt-[-96px] w-full h-screen mx-40 py-20 text-center flex flex-col mt-4 '>
+        <div className='max-w-[1240px] mt[-96px] w-full h-screen mx-40 py-20 text-center flex flex-col mt-4 '>
           <h1 className='md:text-5xl sm:text-2xl text-size-[40px] font-bilo md:py-6'>
               All About "TradeForEveryone"
           </h1>
